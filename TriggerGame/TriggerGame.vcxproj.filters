@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{1a8c086b-afbb-4caa-85b8-9b172edcf114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainHeader">
+      <UniqueIdentifier>{d4aa690b-6a4f-4458-a019-0adc6353ef60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level">
+      <UniqueIdentifier>{1df42722-ceae-4d15-99ad-aff9d0a416ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LevelHeader">
+      <UniqueIdentifier>{05943de9-68fd-4f77-9edf-35f76d86bcc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CamControlHeader">
+      <UniqueIdentifier>{e3732b61-db4b-4e1c-b24a-9d2fd1e7c517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CamControl">
+      <UniqueIdentifier>{a68b8e42-d418-4357-87d8-4722a9faea59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameComponents">
+      <UniqueIdentifier>{7f51cde3-09fd-41b4-b8be-6f4ae87336ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameComponentsHeader">
+      <UniqueIdentifier>{d3169046-c024-4be8-96ec-09a72d3a4749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEditor">
+      <UniqueIdentifier>{d05948bb-b74b-4284-973a-cd22d17a67b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEditorHeader">
+      <UniqueIdentifier>{1a9021be-233e-4291-a161-2b8354c37902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FactoryControllerHeader">
+      <UniqueIdentifier>{98a39ce0-8789-4f7d-9c09-8e6e9ec59f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LevelController">
+      <UniqueIdentifier>{0695e2b6-9f6c-46dd-8ff1-adb03c140d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LevelControllerHeader">
+      <UniqueIdentifier>{34adcf86-613a-4a5a-8284-3d582e497674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameComponents\FactoryController">
+      <UniqueIdentifier>{60f8fb27-7716-44df-995e-f85b2c361255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Logic">
+      <UniqueIdentifier>{30ce4b7d-ecdf-4f2b-a5cb-024931e4799b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameLogicHeader">
+      <UniqueIdentifier>{14cae375-d595-48b3-9c64-94661e9c36fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mainGame.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sandbox.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Editor.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraController.cpp">
+      <Filter>Source Files\CamControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLevel.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerControl.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelEditor.cpp">
+      <Filter>Source Files\GameEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsSandbox.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MovingObstacle.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FactoryController.cpp">
+      <Filter>Source Files\GameComponents\FactoryController</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SegmentController.cpp">
+      <Filter>Source Files\LevelController</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameTracker.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSandbox.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RotatingObstacle.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriggeredObstacle.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelText.cpp">
+      <Filter>Source Files\LevelController</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LaserObstacle.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GravityGateObstacle.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collectables.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Splash.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lockets.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Menu.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TreeCreator.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLevel_old.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terrain.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LightOrbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TreeComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DayNightCycle.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameGen.cpp">
+      <Filter>Source Files\Game Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy_Chaser.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effects.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bird.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameEditor.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameTerrainFile.cpp">
+      <Filter>Source Files\GameEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainManager.cpp">
+      <Filter>Source Files\GameComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\mainGame.h">
+      <Filter>Header Files\MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sandbox.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Editor.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CameraController.h">
+      <Filter>Header Files\CamControlHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameLevel.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PlayerControl.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LevelEditor.h">
+      <Filter>Header Files\GameEditorHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PhysicsSandbox.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MovingObstacle.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FactoryController.h">
+      <Filter>Header Files\FactoryControllerHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SegmentController.h">
+      <Filter>Header Files\LevelControllerHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameTracker.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParticleSandbox.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RotatingObstacle.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TriggeredObstacle.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LevelText.h">
+      <Filter>Header Files\LevelControllerHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GravityGateObstacle.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LaserObstacle.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Collectables.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Splash.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lockets.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Menu.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TreeCreator.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameLevel_old.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Terrain.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LightOrbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TreeComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DayNightCycle.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameGen.h">
+      <Filter>Header Files\GameLogicHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Enemy_Chaser.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Effects.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Brid.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameEditor.h">
+      <Filter>Header Files\LevelHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameTerrainFile.h">
+      <Filter>Header Files\GameEditorHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TerrainManager.h">
+      <Filter>Header Files\GameComponentsHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

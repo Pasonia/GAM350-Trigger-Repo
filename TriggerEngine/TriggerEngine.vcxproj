@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA}</ProjectGuid>
+    <RootNamespace>TriggerEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../EngineLib_Debug/</OutDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../EngineLib_Release/</OutDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Include;../Resource/glLib/Include;../Resource;../Resource/Model;../Resource/fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_CONSOLE;WIN32;NDEBUG;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/D_SCL_SECURE_NO_DEPRECATE %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.lib;glew32.lib;glfw3.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../Resources/fmod;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Include;../Resource/glLib/Include;../Resource;../Resource/Model;../Resource/fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;WIN32;NDEBUG;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/D_SCL_SECURE_NO_DEPRECATE %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Animation.cpp" />
+    <ClCompile Include="Source\AnimationPlayer.cpp" />
+    <ClCompile Include="Source\AnimationTimeTrack.cpp" />
+    <ClCompile Include="Source\AnimationTrack.cpp" />
+    <ClCompile Include="Source\Audio.cpp" />
+    <ClCompile Include="Source\Averager.cpp" />
+    <ClCompile Include="Source\BillBoardParticle.cpp" />
+    <ClCompile Include="Source\Button.cpp" />
+    <ClCompile Include="Source\ButtonManager.cpp" />
+    <ClCompile Include="Source\Component.cpp" />
+    <ClCompile Include="Source\Factory.cpp" />
+    <ClCompile Include="Source\Font.cpp" />
+    <ClCompile Include="Source\Grass.cpp" />
+    <ClCompile Include="Source\GrassRender.cpp" />
+    <ClCompile Include="Source\GrassUpdate.cpp" />
+    <ClCompile Include="Source\GUI2D.cpp" />
+    <ClCompile Include="Source\JSONManagerLoader.cpp" />
+    <ClCompile Include="Source\KeyFrame.cpp" />
+    <ClCompile Include="Source\LightShader.cpp" />
+    <ClCompile Include="Source\ObjectManager.cpp" />
+    <ClCompile Include="Source\ObjectMap.cpp" />
+    <ClCompile Include="Source\Particle.cpp" />
+    <ClCompile Include="Source\ParticleUpdate.cpp" />
+    <ClCompile Include="Source\PhysicsManager.cpp" />
+    <ClCompile Include="Source\Picking.cpp" />
+    <ClCompile Include="Source\Primitive.cpp" />
+    <ClCompile Include="Source\SampleComponent.cpp" />
+    <ClCompile Include="Source\ShaderCompiler.cpp" />
+    <ClCompile Include="Source\Skybox.cpp" />
+    <ClCompile Include="Source\TerrainHeight.cpp" />
+    <ClCompile Include="Source\TextureLoader.cpp" />
+    <ClCompile Include="Source\TextureManager.cpp" />
+    <ClCompile Include="Source\TriggerAssert.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\Debugger.cpp" />
+    <ClCompile Include="Source\FileLoader.cpp" />
+    <ClCompile Include="Source\Graphic.cpp" />
+    <ClCompile Include="Source\ImageLoader.cpp" />
+    <ClCompile Include="Source\JSONWrapper.cpp" />
+    <ClCompile Include="Source\Model.cpp" />
+    <ClCompile Include="Source\ModelLoader.cpp" />
+    <ClCompile Include="Source\ModelManager.cpp" />
+    <ClCompile Include="Source\ObjectInstance.cpp" />
+    <ClCompile Include="Source\Opengl.cpp" />
+    <ClCompile Include="Source\Physics.cpp" />
+    <ClCompile Include="Source\RapidJSONParser.cpp" />
+    <ClCompile Include="Source\State.cpp" />
+    <ClCompile Include="Source\StateManager.cpp" />
+    <ClCompile Include="Source\System.cpp" />
+    <ClCompile Include="Source\TEMath.cpp" />
+    <ClCompile Include="Source\Timer.cpp" />
+    <ClCompile Include="Source\TriggerInput.cpp" />
+    <ClCompile Include="Source\TriggerVector3D.cpp" />
+    <ClCompile Include="Source\WholeLine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Animation.h" />
+    <ClInclude Include="Include\AnimationPlayer.h" />
+    <ClInclude Include="Include\AnimationTimeTrack.h" />
+    <ClInclude Include="Include\AnimationTrack.h" />
+    <ClInclude Include="Include\Audio.h" />
+    <ClInclude Include="Include\Averager.h" />
+    <ClInclude Include="Include\BillBoardParticle.h" />
+    <ClInclude Include="Include\Button.h" />
+    <ClInclude Include="Include\ButtonManager.h" />
+    <ClInclude Include="Include\Component.h" />
+    <ClInclude Include="Include\Factory.h" />
+    <ClInclude Include="Include\Font.h" />
+    <ClInclude Include="Include\Grass.h" />
+    <ClInclude Include="Include\GrassRender.h" />
+    <ClInclude Include="Include\GrassUpdate.h" />
+    <ClInclude Include="Include\GUI2D.h" />
+    <ClInclude Include="Include\JSONManagerLoader.h" />
+    <ClInclude Include="Include\KeyFrame.h" />
+    <ClInclude Include="Include\LightShader.h" />
+    <ClInclude Include="Include\ObjectMap.h" />
+    <ClInclude Include="Include\Particle.h" />
+    <ClInclude Include="Include\ParticleUpdate.h" />
+    <ClInclude Include="Include\PhysicsManager.h" />
+    <ClInclude Include="Include\Picking.h" />
+    <ClInclude Include="Include\Primitive.h" />
+    <ClInclude Include="Include\SampleComponent.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Include\ShaderCompiler.h" />
+    <ClInclude Include="Include\Skybox.h" />
+    <ClInclude Include="Include\TerrainHeight.h" />
+    <ClInclude Include="Include\TextureLoader.h" />
+    <ClInclude Include="Include\TextureManager.h" />
+    <ClInclude Include="Include\TriggerAssert.h" />
+    <ClInclude Include="Include\Camera.h" />
+    <ClInclude Include="Include\Debugger.h" />
+    <ClInclude Include="Include\FileLoader.h" />
+    <ClInclude Include="Include\Graphic.h" />
+    <ClInclude Include="Include\ImageLoader.h" />
+    <ClInclude Include="Include\Model.h" />
+    <ClInclude Include="Include\ModelLoader.h" />
+    <ClInclude Include="Include\ModelManager.h" />
+    <ClInclude Include="Include\ObjectInstance.h" />
+    <ClInclude Include="Include\ObjectManager.h" />
+    <ClInclude Include="Include\Opengl.h" />
+    <ClInclude Include="Include\Physics.h" />
+    <ClInclude Include="Include\State.h" />
+    <ClInclude Include="Include\StateManager.h" />
+    <ClInclude Include="Include\System.h" />
+    <ClInclude Include="Include\TEMath.h" />
+    <ClInclude Include="Include\Timer.h" />
+    <ClInclude Include="Include\TriggerInput.h" />
+    <ClInclude Include="Include\TriggerVector3D.h" />
+    <ClInclude Include="Include\JSONWrapper.h" />
+    <ClInclude Include="Include\WholeLine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\Shader\FragShader\2DFont_fs.shader" />
+    <None Include="..\Resource\Shader\FragShader\2DGUI_fs.shader" />
+    <None Include="..\Resource\Shader\FragShader\Deferred_FirstPass_fs.shader" />
+    <None Include="..\Resource\Shader\FragShader\Deferred_SecondPass_fs.shader" />
+    <None Include="..\Resource\Shader\FragShader\particle_billboard_fs.shader" />
+    <None Include="..\Resource\Shader\FragShader\SM_Light_frag.shader" />
+    <None Include="..\Resource\Shader\GeoShader\particle_billboard_gs.shader" />
+    <None Include="..\Resource\Shader\GeoShader\particle_update_gs.shader" />
+    <None Include="..\Resource\Shader\VertShader\2DFont_vs.shader" />
+    <None Include="..\Resource\Shader\VertShader\2DGUI_vs.shader" />
+    <None Include="..\Resource\Shader\VertShader\Deferred_FirstPass_vs.shader" />
+    <None Include="..\Resource\Shader\VertShader\Deferred_SecondPass_vs.shader" />
+    <None Include="..\Resource\Shader\VertShader\particle_billboard_vs.shader" />
+    <None Include="..\Resource\Shader\VertShader\particle_update_vs.shader" />
+    <None Include="..\Resource\Shader\VertShader\SM_Light_vert.shader" />
+    <None Include="Include\FactoryTemplate.inl" />
+    <None Include="Include\JSONWrapper.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

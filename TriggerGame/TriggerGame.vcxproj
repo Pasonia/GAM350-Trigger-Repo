@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89B27389-70BD-43B5-AC43-74B99753E5BF}</ProjectGuid>
+    <RootNamespace>TriggerGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../GameEXE_Debug/</OutDir>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+    <LibraryPath>../Resource/fmod;$(LibraryPath)</LibraryPath>
+    <IncludePath>../Resource/fmod;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../GameEXE_Release/</OutDir>
+    <IncludePath>../Resource/fmod;$(IncludePath)</IncludePath>
+    <LibraryPath>../Resource/fmod;$(LibraryPath)</LibraryPath>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Include;../TriggerEngine/Include;../Resource/;../Resource/glLib/Include;../Resource/fmod</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>_MBCS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/D_SCL_SECURE_NO_DEPRECATE %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../EngineLib_Debug;../Resource/glLib/Lib;../Resource/AntTweakBar</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TriggerEngine.lib;AntTweakBar.lib;openGL32.lib;glew32.lib;glfw3.lib;FreeImage.lib;assimp.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Include;../TriggerEngine/Include;../Resource;%(AdditionalIncludeDirectories);../Resource/glLib/Include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalOptions>/D_SCL_SECURE_NO_DEPRECATE %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../EngineLib_Release;../Resource/glLib/Lib;../Resource/AntTweakBar</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TriggerEngine.lib;AntTweakBar.lib;openGL32.lib;glew32.lib;glfw3.lib;FreeImage.lib;assimp.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Bird.cpp" />
+    <ClCompile Include="Source\CameraController.cpp" />
+    <ClCompile Include="Source\Collectables.cpp" />
+    <ClCompile Include="Source\DayNightCycle.cpp" />
+    <ClCompile Include="Source\Editor.cpp" />
+    <ClCompile Include="Source\Effects.cpp" />
+    <ClCompile Include="Source\Enemy_Chaser.cpp" />
+    <ClCompile Include="Source\FactoryController.cpp" />
+    <ClCompile Include="Source\GameEditor.cpp" />
+    <ClCompile Include="Source\GameGen.cpp" />
+    <ClCompile Include="Source\GameLevel.cpp" />
+    <ClCompile Include="Source\GameLevel_old.cpp" />
+    <ClCompile Include="Source\GameTerrainFile.cpp" />
+    <ClCompile Include="Source\GravityGateObstacle.cpp" />
+    <ClCompile Include="Source\LaserObstacle.cpp" />
+    <ClCompile Include="Source\LevelEditor.cpp" />
+    <ClCompile Include="Source\LevelText.cpp" />
+    <ClCompile Include="Source\LightOrbs.cpp" />
+    <ClCompile Include="Source\Lockets.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\mainGame.cpp" />
+    <ClCompile Include="Source\Menu.cpp" />
+    <ClCompile Include="Source\MovingObstacle.cpp" />
+    <ClCompile Include="Source\ParticleSandbox.cpp" />
+    <ClCompile Include="Source\PhysicsSandbox.cpp" />
+    <ClCompile Include="Source\PlayerControl.cpp" />
+    <ClCompile Include="Source\RotatingObstacle.cpp" />
+    <ClCompile Include="Source\Sandbox.cpp" />
+    <ClCompile Include="Source\GameTracker.cpp" />
+    <ClCompile Include="Source\SegmentController.cpp" />
+    <ClCompile Include="Source\Splash.cpp" />
+    <ClCompile Include="Source\Terrain.cpp" />
+    <ClCompile Include="Source\TerrainManager.cpp" />
+    <ClCompile Include="Source\TreeComponent.cpp" />
+    <ClCompile Include="Source\TreeCreator.cpp" />
+    <ClCompile Include="Source\TriggeredObstacle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Brid.h" />
+    <ClInclude Include="Include\CameraController.h" />
+    <ClInclude Include="Include\Collectables.h" />
+    <ClInclude Include="Include\DayNightCycle.h" />
+    <ClInclude Include="Include\Editor.h" />
+    <ClInclude Include="Include\Effects.h" />
+    <ClInclude Include="Include\Enemy_Chaser.h" />
+    <ClInclude Include="Include\FactoryController.h" />
+    <ClInclude Include="Include\GameEditor.h" />
+    <ClInclude Include="Include\GameGen.h" />
+    <ClInclude Include="Include\GameLevel.h" />
+    <ClInclude Include="Include\GameLevel_old.h" />
+    <ClInclude Include="Include\GameTerrainFile.h" />
+    <ClInclude Include="Include\GravityGateObstacle.h" />
+    <ClInclude Include="Include\LaserObstacle.h" />
+    <ClInclude Include="Include\LevelEditor.h" />
+    <ClInclude Include="Include\LevelText.h" />
+    <ClInclude Include="Include\LightOrbs.h" />
+    <ClInclude Include="Include\Lockets.h" />
+    <ClInclude Include="Include\mainGame.h" />
+    <ClInclude Include="Include\Menu.h" />
+    <ClInclude Include="Include\MovingObstacle.h" />
+    <ClInclude Include="Include\ParticleSandbox.h" />
+    <ClInclude Include="Include\PhysicsSandbox.h" />
+    <ClInclude Include="Include\PlayerControl.h" />
+    <ClInclude Include="Include\RotatingObstacle.h" />
+    <ClInclude Include="Include\Sandbox.h" />
+    <ClInclude Include="Include\GameTracker.h" />
+    <ClInclude Include="Include\SegmentController.h" />
+    <ClInclude Include="Include\Splash.h" />
+    <ClInclude Include="Include\Terrain.h" />
+    <ClInclude Include="Include\TerrainManager.h" />
+    <ClInclude Include="Include\TreeComponent.h" />
+    <ClInclude Include="Include\TreeCreator.h" />
+    <ClInclude Include="Include\TriggeredObstacle.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

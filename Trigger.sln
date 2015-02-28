@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriggerEngine", "TriggerEngine\TriggerEngine.vcxproj", "{C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriggerGame", "TriggerGame\TriggerGame.vcxproj", "{89B27389-70BD-43B5-AC43-74B99753E5BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA} = {C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA}.Debug|Win32.Build.0 = Debug|Win32
+		{C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA}.Release|Win32.ActiveCfg = Release|Win32
+		{C0126C06-7BA5-4A2B-A0DF-F3A6F0A723EA}.Release|Win32.Build.0 = Release|Win32
+		{89B27389-70BD-43B5-AC43-74B99753E5BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{89B27389-70BD-43B5-AC43-74B99753E5BF}.Debug|Win32.Build.0 = Debug|Win32
+		{89B27389-70BD-43B5-AC43-74B99753E5BF}.Release|Win32.ActiveCfg = Release|Win32
+		{89B27389-70BD-43B5-AC43-74B99753E5BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

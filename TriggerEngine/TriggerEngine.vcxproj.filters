@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SystemHeader">
+      <UniqueIdentifier>{7870389a-be7b-4621-8394-f4c9b50ab0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{86459757-b206-4333-a36a-0568f4a3c3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphicHeader">
+      <UniqueIdentifier>{15119de8-01a3-4dbf-92bb-b0551a0b639c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphic">
+      <UniqueIdentifier>{9fa06cc1-7dd0-4aaa-bcd8-e096213fd696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManager">
+      <UniqueIdentifier>{aa8c5f74-4c29-4e4a-b606-0959c21fee0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateHeader">
+      <UniqueIdentifier>{69b31c70-6103-425a-bf26-049943f056d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathHeader">
+      <UniqueIdentifier>{29514b91-9444-4d3c-9df4-14687bc52e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileI/OHeader">
+      <UniqueIdentifier>{c105263e-63ee-4e6b-a2d8-98c2bbfe7790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileI/O">
+      <UniqueIdentifier>{06bf1f38-1b13-4451-b4e4-c5206d2b9887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InputHeader">
+      <UniqueIdentifier>{bd653d0c-ece4-42e8-a412-5d97d90b664f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{c6d178fb-abd1-4881-9a59-58f6b02da267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{a0879fce-2a80-47e5-ba36-5965714cfd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{5a4eab16-5ee4-4e3d-8563-dbb6e4dd0a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{f63e4deb-e15e-417c-885f-e40ce7b29344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{015593de-15da-4c03-9bad-4a3be61f6b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debugger">
+      <UniqueIdentifier>{33340471-a163-45cc-b4cb-d8f3e58b6a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DebuggerHeader">
+      <UniqueIdentifier>{b794353b-c60d-4f21-9427-51fcbd5b59f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathTE">
+      <UniqueIdentifier>{c9b43c86-3b12-48b6-86ff-4a3174ea9d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ObjectHeader">
+      <UniqueIdentifier>{e3d0652e-2571-47a6-a6b5-371b158408dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ComponentHeader">
+      <UniqueIdentifier>{f1b7c585-5d0d-44ef-b14d-12aa77003eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component">
+      <UniqueIdentifier>{4b013b4c-8728-433a-9310-ee84bb65a285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{6d4b5707-64f8-4e0f-bcd7-14cb35be93fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation">
+      <UniqueIdentifier>{860f647a-275c-4010-9dc2-94045806e3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{75998dbb-d9b6-4f34-8fc4-ba6312bcada0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Deferred">
+      <UniqueIdentifier>{1909ea59-fdee-4db0-a243-39aacc338209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LightingHeader">
+      <UniqueIdentifier>{578e1bcc-8830-4aa8-bf8e-a8cde34aa053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{0d200ecd-743d-41b0-bec1-fceeb82b780d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AudioHeader">
+      <UniqueIdentifier>{10b58627-1f87-43db-a456-ef03e04dc75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{8b6664fc-06dd-444d-828f-75d7db9bb924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Averager">
+      <UniqueIdentifier>{efc6087e-7b18-44a7-960c-0b7f145f1642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Averager">
+      <UniqueIdentifier>{cfa9bcfe-7faa-4065-94cf-e3618863f6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ShadowMap">
+      <UniqueIdentifier>{26d40ce9-37ee-4bce-88e4-ec0e52003b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FactoryHeader">
+      <UniqueIdentifier>{7c5b64ce-dd38-49e3-bb8f-748092ea6fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Factory">
+      <UniqueIdentifier>{3f2d7f7b-bc0f-4c9a-b4c8-2588b151ac99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FontHeader">
+      <UniqueIdentifier>{5af3bed4-9c87-4b1b-9e12-4ba70b4e0c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Font">
+      <UniqueIdentifier>{6c24ff57-42e3-4ddc-8b4a-eef89740e627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Font">
+      <UniqueIdentifier>{123d4bb0-d0e5-48b5-8119-ebe2eadf6eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GUI2D">
+      <UniqueIdentifier>{8e7da57a-439a-40d5-bcb4-95ccaf13f2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParticleHeader">
+      <UniqueIdentifier>{70bee334-9b46-4054-928c-343378a47732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle">
+      <UniqueIdentifier>{c3453184-5680-407a-b05c-b24007ae5fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Particle">
+      <UniqueIdentifier>{67a4680f-752e-4278-883d-b99095713d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TerrainHeightMap">
+      <UniqueIdentifier>{1f2567c2-0777-4fe0-8d16-ab0e96b32f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TerrainHeightMapHeader">
+      <UniqueIdentifier>{765f7af2-c4d9-4c8c-b17f-84929f8748c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\System.h">
+      <Filter>Header Files\SystemHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Opengl.h">
+      <Filter>Header Files\GraphicHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\State.h">
+      <Filter>Header Files\StateHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\StateManager.h">
+      <Filter>Header Files\StateHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TEMath.h">
+      <Filter>Header Files\MathHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Physics.h">
+      <Filter>Header Files\SystemHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WholeLine.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FileLoader.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\JSONWrapper.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TriggerInput.h">
+      <Filter>Header Files\InputHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TriggerVector3D.h">
+      <Filter>Header Files\InputHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ImageLoader.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graphic.h">
+      <Filter>Header Files\GraphicHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Debugger.h">
+      <Filter>Header Files\DebuggerHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Model.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ModelManager.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ModelLoader.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Timer.h">
+      <Filter>Header Files\SystemHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ObjectInstance.h">
+      <Filter>Header Files\ObjectHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ObjectManager.h">
+      <Filter>Header Files\ObjectHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TriggerAssert.h">
+      <Filter>Header Files\SystemHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Component.h">
+      <Filter>Header Files\ComponentHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TextureManager.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TextureLoader.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\JSONManagerLoader.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Animation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\KeyFrame.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Picking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\AnimationTrack.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\AnimationPlayer.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Primitive.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LightShader.h">
+      <Filter>Header Files\LightingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PhysicsManager.h">
+      <Filter>Header Files\SystemHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Skybox.h">
+      <Filter>Header Files\LightingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ShaderCompiler.h">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\AnimationTimeTrack.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Audio.h">
+      <Filter>Header Files\AudioHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Averager.h">
+      <Filter>Header Files\Averager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Factory.h">
+      <Filter>FactoryHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Font.h">
+      <Filter>Header Files\FontHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ObjectMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GUI2D.h">
+      <Filter>Header Files\FontHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Particle.h">
+      <Filter>Header Files\ParticleHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParticleUpdate.h">
+      <Filter>Header Files\ParticleHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BillBoardParticle.h">
+      <Filter>Header Files\ParticleHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Button.h">
+      <Filter>Header Files\SystemHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ButtonManager.h">
+      <Filter>Header Files\SystemHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SampleComponent.h">
+      <Filter>Header Files\ComponentHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Grass.h">
+      <Filter>Header Files\ParticleHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GrassUpdate.h">
+      <Filter>Header Files\ParticleHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GrassRender.h">
+      <Filter>Header Files\ParticleHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TerrainHeight.h">
+      <Filter>Header Files\TerrainHeightMapHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\System.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Opengl.cpp">
+      <Filter>Source Files\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State.cpp">
+      <Filter>Source Files\StateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateManager.cpp">
+      <Filter>Source Files\StateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileLoader.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JSONWrapper.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RapidJSONParser.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WholeLine.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriggerInput.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriggerVector3D.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphic.cpp">
+      <Filter>Source Files\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImageLoader.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debugger.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelManager.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelLoader.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TEMath.cpp">
+      <Filter>Source Files\MathTE</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriggerAssert.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component.cpp">
+      <Filter>Source Files\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureManager.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureLoader.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectManager.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectInstance.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JSONManagerLoader.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyFrame.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Picking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationTrack.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationPlayer.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Primitive.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LightShader.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Skybox.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderCompiler.cpp">
+      <Filter>Source Files\FileI/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationTimeTrack.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Averager.cpp">
+      <Filter>Source Files\Averager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Factory.cpp">
+      <Filter>Resource Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Font.cpp">
+      <Filter>Source Files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI2D.cpp">
+      <Filter>Source Files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BillBoardParticle.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleUpdate.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ButtonManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SampleComponent.cpp">
+      <Filter>Source Files\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Grass.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GrassUpdate.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GrassRender.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainHeight.cpp">
+      <Filter>Source Files\TerrainHeightMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\JSONWrapper.inl">
+      <Filter>Header Files\FileI/OHeader</Filter>
+    </None>
+    <None Include="..\Resource\Shader\FragShader\Deferred_FirstPass_fs.shader">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="..\Resource\Shader\VertShader\Deferred_FirstPass_vs.shader">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="..\Resource\Shader\FragShader\Deferred_SecondPass_fs.shader">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="..\Resource\Shader\VertShader\Deferred_SecondPass_vs.shader">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="..\Resource\Shader\VertShader\SM_Light_vert.shader">
+      <Filter>Resource Files\ShadowMap</Filter>
+    </None>
+    <None Include="..\Resource\Shader\FragShader\SM_Light_frag.shader">
+      <Filter>Resource Files\ShadowMap</Filter>
+    </None>
+    <None Include="Include\FactoryTemplate.inl">
+      <Filter>Resource Files\Factory</Filter>
+    </None>
+    <None Include="..\Resource\Shader\FragShader\2DFont_fs.shader">
+      <Filter>Resource Files\Font</Filter>
+    </None>
+    <None Include="..\Resource\Shader\VertShader\2DFont_vs.shader">
+      <Filter>Resource Files\Font</Filter>
+    </None>
+    <None Include="..\Resource\Shader\VertShader\2DGUI_vs.shader">
+      <Filter>Resource Files\GUI2D</Filter>
+    </None>
+    <None Include="..\Resource\Shader\FragShader\2DGUI_fs.shader">
+      <Filter>Resource Files\GUI2D</Filter>
+    </None>
+    <None Include="..\Resource\Shader\GeoShader\particle_update_gs.shader">
+      <Filter>Resource Files\Particle</Filter>
+    </None>
+    <None Include="..\Resource\Shader\VertShader\particle_update_vs.shader">
+      <Filter>Resource Files\Particle</Filter>
+    </None>
+    <None Include="..\Resource\Shader\FragShader\particle_billboard_fs.shader">
+      <Filter>Resource Files\Particle</Filter>
+    </None>
+    <None Include="..\Resource\Shader\GeoShader\particle_billboard_gs.shader">
+      <Filter>Resource Files\Particle</Filter>
+    </None>
+    <None Include="..\Resource\Shader\VertShader\particle_billboard_vs.shader">
+      <Filter>Resource Files\Particle</Filter>
+    </None>
+  </ItemGroup>
+</Project>
