@@ -1,0 +1,20 @@
+{
+	"ObjectInstances": [
+	{
+	"model": "Sphere",
+	"texture": "Face2",
+	"position": {"x": 0.0, "y": 10.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 0.001, "y": 0.001, "z": 0.001},
+	"render": {"wireframe": false, "aabb": false, "highlight": false, "bs": false}
+	},
+	{
+	"model": "PlaceHolder",
+	"texture": "Face1",
+	"position": {"x": 0.0, "y": 0.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 1000.0, "y": 1.0, "z": 1000.0},
+	"render": {"wireframe": false, "aabb": false, "highlight": false, "bs": false}
+	}
+	]
+}

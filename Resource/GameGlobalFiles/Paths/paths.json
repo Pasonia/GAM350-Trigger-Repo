@@ -1,0 +1,13 @@
+{
+	"PathMap":
+	[
+	{
+		"resource" : "BoxFile",
+		"path" : ""../Resource/Model/Box.dae"
+	},
+	{
+		"resource" : "SphereFile",
+		"path" : ""../Resource/Model/Sphere.dae"
+	}
+	]
+}

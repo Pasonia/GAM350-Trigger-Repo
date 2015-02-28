@@ -1,0 +1,405 @@
+{
+    "length": 21,
+    "LevelObjects": [
+        {
+            "x": 25,
+            "y": 0,
+            "z": 10,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 32.1788,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 33,
+            "y": 0,
+            "z": 8,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 49.4913,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 39,
+            "y": 0,
+            "z": 13,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 9.409,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 44,
+            "y": 0,
+            "z": 8,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 104.064,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 34,
+            "y": 0,
+            "z": 2,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 38.2005,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 21,
+            "y": 0,
+            "z": 4,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 33.6842,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 19,
+            "y": 0,
+            "z": 15,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 120.059,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 30,
+            "y": 0,
+            "z": 15,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 32.7433,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 33,
+            "y": 0,
+            "z": 12,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 37.4478,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 29,
+            "y": 0,
+            "z": 7,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 48.3623,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 40,
+            "y": 0,
+            "z": 6,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 37.636,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 45,
+            "y": 0,
+            "z": 13,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 26.9097,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 49,
+            "y": 0,
+            "z": 7,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 9.409,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 46,
+            "y": 0,
+            "z": 2,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 9.409,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 41,
+            "y": 0,
+            "z": 10,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 9.409,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "z": 8,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 32.5551,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 33,
+            "y": 0,
+            "z": 4,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.409,
+                "y": 9.59718,
+                "z": 9.409
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 34,
+            "y": 0,
+            "z": 18,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.7,
+                "y": 42.486,
+                "z": 9.7
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 36,
+            "y": 0,
+            "z": 18,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 9.7,
+                "y": 68.87,
+                "z": 9.7
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 35,
+            "y": 0,
+            "z": 12,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 10,
+                "y": 162.2,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        }
+    ]
+}

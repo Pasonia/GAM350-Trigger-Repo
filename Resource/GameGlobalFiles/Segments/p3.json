@@ -1,0 +1,185 @@
+{
+    "length": 39,
+    "LevelObjects": [
+        {
+            "x": 20,
+            "y": 0,
+            "z": 0,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 50,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 30,
+            "y": 0,
+            "z": 0,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 50,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 44,
+            "y": 0,
+            "z": 0,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 50,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 0,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 50,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 25,
+            "y": 0,
+            "z": 15,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 49,
+            "y": 0,
+            "z": 15,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 51,
+            "y": 0,
+            "z": 38,
+            "modeltype": "Box",
+            "texturetype": "green",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 110,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 23,
+            "y": 0,
+            "z": 38,
+            "modeltype": "Box",
+            "texturetype": "green",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 110,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "z": 25,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 70,
+                "y": 150,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static"
+        }
+    ]
+}

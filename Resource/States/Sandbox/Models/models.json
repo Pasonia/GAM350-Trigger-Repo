@@ -1,0 +1,30 @@
+{
+	"Models": [
+	{
+		"name": "PlaceHolder",
+		"path":"../Resource/Model/Box.dae"
+	},
+	{
+		"name": "Sphere",
+		"path":"../Resource/Model/bird.DAE",
+		"track": [
+		{
+		"start" : 0.0,
+		"end" : 30.0
+		}
+		]
+	},
+	{
+		"name": "box",
+		"path":"../Resource/Model/eg.dae"
+	},
+	{
+		"name": "Thon",
+		"path":"../Resource/Model/thon.dae"
+	},
+	{
+		"name": "Trunk",
+		"path":"../Resource/Model/trunk2.dae"
+	}
+	]
+}

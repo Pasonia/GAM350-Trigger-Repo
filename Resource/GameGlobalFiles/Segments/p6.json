@@ -1,0 +1,141 @@
+{
+    "length": 51,
+    "LevelObjects": [
+        {
+            "x": 17,
+            "y": 4,
+            "z": 24,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 440
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "moving",
+            "checkpoints": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 10
+                },
+                {
+                    "x": 400,
+                    "y": 0,
+                    "z": 0,
+                    "time": 10
+                }
+            ]
+        },
+        {
+            "x": 57,
+            "y": 0,
+            "z": 24,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 450
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "moving",
+            "checkpoints": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 5
+                },
+                {
+                    "x": -400,
+                    "y": 0,
+                    "z": 0,
+                    "time": 5
+                }
+            ]
+        },
+        {
+            "x": 35,
+            "y": 2,
+            "z": 44,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 200,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "moving",
+            "checkpoints": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 5
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 400,
+                    "time": 5
+                }
+            ]
+        },
+        {
+            "x": 35,
+            "y": 0,
+            "z": 48,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 200,
+                "y": 10,
+                "z": 20
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "moving",
+            "checkpoints": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 5
+                },
+                {
+                    "x": 0,
+                    "y": 50,
+                    "z": 0,
+                    "time": 5
+                }
+            ]
+        }
+    ]
+}

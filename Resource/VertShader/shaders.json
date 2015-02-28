@@ -1,0 +1,4 @@
+{
+	"FirstPassShader" : "firstpass_vs.shader",
+	"SecondPassShader" : "secondpass_vs.shader"
+}

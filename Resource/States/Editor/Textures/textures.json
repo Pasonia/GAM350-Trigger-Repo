@@ -1,0 +1,20 @@
+{
+	"Textures": [
+	{
+	"name": "Face1",
+	"path": "../Resource/Image/Face.png"
+	},
+	{
+	"name": "Highlight",
+	"path": "../Resource/Image/highlight.png"
+	},
+	{
+	"name": "Floor",
+	"path": "../Resource/Image/Floor.jpg"
+	},
+	{
+	"name": "Selection",
+	"path": "../Resource/Image/Selection.png"
+	}
+	]
+}

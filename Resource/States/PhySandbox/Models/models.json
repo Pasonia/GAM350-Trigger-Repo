@@ -1,0 +1,36 @@
+{
+	"Models": [
+	{
+		"name": "Sphere",
+		"path":"../Resource/Model/Sphere.dae"
+	},
+	{
+		"name": "Box",
+		"path":  "../Resource/Model/Box.dae"
+	},
+	{
+		"name": "Ship",
+		"path":"../Resource/Model/Ship.dae"
+	},
+	{
+		"name": "Box",
+		"path":"../Resource/Model/Box.dae"
+	},
+	{
+		"name": "Build_One",
+		"path":"../Resource/Model/building_one.dae"
+	},
+	{
+		"name": "Build_Two",
+		"path":"../Resource/Model/building_two.dae"
+	},
+	{
+		"name": "Build_Three",
+		"path":"../Resource/Model/building_three.dae"
+	},
+	{
+		"name": "Locket",
+		"path":"../Resource/Model/locklock.dae"
+	}
+	]
+}

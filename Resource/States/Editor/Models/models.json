@@ -1,0 +1,8 @@
+{
+	"Models": [
+	{
+		"name": "Highlight",
+		"path":  "../Resource/Model/cellHighlight.dae"
+	}
+	]
+}

@@ -1,0 +1,84 @@
+{
+	"Audio": [
+	{
+		"name": "MainBGM",
+		"path": "../Resource/Audio/BGM/WaywardGameTheme02.ogg",
+		"type": "BGM"
+	},
+	{
+		"name": "ping1",
+		"path": "../Resource/Audio/SFX/collectping1.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "ping2",
+		"path": "../Resource/Audio/SFX/collectping2.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "ping3",
+		"path": "../Resource/Audio/SFX/collectping3.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "ping4",
+		"path": "../Resource/Audio/SFX/collectping4.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "ping5",
+		"path": "../Resource/Audio/SFX/collectping5.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "ping6",
+		"path": "../Resource/Audio/SFX/collectping6.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "ping7",
+		"path": "../Resource/Audio/SFX/collectping7.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "ping8",
+		"path": "../Resource/Audio/SFX/collectping8.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "HitWall",
+		"path": "../Resource/Audio/SFX/HitObstacle.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "PickUp",
+		"path": "../Resource/Audio/SFX/Pickup.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "EnemyAlerted",
+		"path": "../Resource/Audio/SFX/EnemyAlerted.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "Menugoto",
+		"path": "../Resource/Audio/SFX/Menu_goto.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "Menuback",
+		"path": "../Resource/Audio/SFX/Menu_back.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "Menuhover",
+		"path": "../Resource/Audio/SFX/Menu_hover.wav",
+		"type": "SFX"
+	},
+	{
+		"name": "Menuenter",
+		"path": "../Resource/Audio/SFX/Menu_enter.wav",
+		"type": "SFX"
+	}
+	]
+}

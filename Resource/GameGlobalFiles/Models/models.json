@@ -1,0 +1,58 @@
+{
+	"Models": [
+	{
+		"name": "Ship",
+		"path":"../Resource/Model/Ship.dae"
+	},
+	{
+		"name": "Box",
+		"path":  "../Resource/Model/Box.dae"
+	},
+	{
+		"name": "Plane",
+		"path":  "../Resource/Model/Plane.dae"
+	},
+	{
+		"name": "Sphere",
+		"path":  "../Resource/Model/Sphere.dae"
+	},
+	{
+		"name": "Locket",
+		"path":"../Resource/Model/locklock.dae"
+	},
+	{
+		"name": "Trunk",
+		"path":"../Resource/Model/trunk2.dae"
+	},
+	{
+		"name": "BoxUV",
+		"path":  "../Resource/Model/box_uv.dae"
+	},
+	{
+		"name": "Boulder01",
+		"path":  "../Resource/Model/boulder01.dae"
+	},
+	{
+		"name": "Cylinder",
+		"path":  "../Resource/Model/Cylinders.dae"
+	},
+	{
+		"name": "Bird",
+		"path":  "../Resource/Model/Bird.dae",
+		"track": [
+		{
+		"start" : 0.0,
+		"end" : 30.0
+		}
+		]
+	},
+	{
+		"name": "Enemy",
+		"path":  "../Resource/Model/enemy.dae"
+	},
+	{
+		"name": "Highlight",
+		"path":  "../Resource/Model/cellHighlight.dae"
+	}
+	]
+}

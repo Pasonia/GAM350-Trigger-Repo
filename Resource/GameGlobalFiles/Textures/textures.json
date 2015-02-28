@@ -1,0 +1,90 @@
+{
+	"Textures": [
+	{
+	"name": "Face1",
+	"path": "../Resource/Image/Face.png"
+	},
+	{
+	"name": "Face2",
+	"path": "../Resource/Image/Face1.png"
+	},
+	{
+	"name": "blue",
+	"path": "../Resource/Image/blue.png"
+	},
+	{
+	"name": "green",
+	"path": "../Resource/Image/green.png"
+	},
+	{
+	"name": "white",
+	"path": "../Resource/Image/white.jpg"
+	},
+	{
+	"name": "selection",
+	"path": "../Resource/Image/Selection.png"
+	},
+	{
+	"name": "Rust",
+	"path": "../Resource/Image/play.png"
+	},
+	{
+	"name": "Options",
+	"path": "../Resource/Image/options.png"
+	}
+	,
+	{
+	"name": "Credits",
+	"path": "../Resource/Image/credits.png"
+	}
+	,
+	{
+	"name": "Exit",
+	"path": "../Resource/Image/exit.png"
+	},
+	{
+	"name": "Panel",
+	"path": "../Resource/Image/panel.png"
+	},
+	{
+	"name": "Title",
+	"path": "../Resource/Image/Title.png"
+	},
+	{
+	"name": "CreditPanel",
+	"path": "../Resource/Image/panelcopyright.png"
+	},
+	{
+	"name": "HowToPanel",
+	"path": "../Resource/Image/panelhowto.png"
+	},
+	{
+	"name": "Howto",
+	"path": "../Resource/Image/howto.png"
+	},
+	{
+	"name": "Trunk",
+	"path": "../Resource/Image/trunk.jpg"
+	},
+	{
+	"name": "BoulderTexture",
+	"path": "../Resource/Image/boulder.png"
+	},
+	{
+	"name": "DirtFloor",
+	"path": "../Resource/Image/dirtfloor.png"
+	},
+	{
+	"name": "Leaves",
+	"path": "../Resource/Image/leaf_1.png"
+	},
+	{
+	"name": "Scale",
+	"path": "../Resource/Image/scales.jpg"
+	},
+	{
+	"name": "Highlight",
+	"path": "../Resource/Image/highlight.png"
+	}
+	]
+}

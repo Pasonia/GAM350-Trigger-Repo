@@ -1,0 +1,2452 @@
+{
+    "length": 699,
+    "LevelObjects": [
+        {
+            "x": 19,
+            "y": 0,
+            "z": 36,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 710
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 33,
+            "y": 0,
+            "z": 36,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 710
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 26,
+            "y": 9,
+            "z": 36,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 170,
+                "y": 30,
+                "z": 710
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 25,
+            "y": 0,
+            "z": 81,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 30,
+            "y": 0,
+            "z": 76,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 24,
+            "y": 0,
+            "z": 100,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 49,
+            "y": 0,
+            "z": 96,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 43,
+            "y": 0,
+            "z": 125,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 332,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 50,
+                "y": 250,
+                "z": 50
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 2200,
+            "triggerinfo": [
+                {
+                    "angle": 15,
+                    "time": 1
+                },
+                {
+                    "angle": 90,
+                    "time": 1
+                }
+            ],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 26,
+            "y": 0,
+            "z": 140,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 53,
+            "y": 0,
+            "z": 147,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 50,
+            "y": 0,
+            "z": 173,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "z": 127,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 26,
+            "y": 0,
+            "z": 33,
+            "modeltype": "Ship",
+            "texturetype": "Highlight",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 5,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 44,
+            "y": 9,
+            "z": 260,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 230,
+                "y": 30,
+                "z": 770
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 260,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 770
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 34,
+            "y": 0,
+            "z": 260,
+            "modeltype": "Box",
+            "texturetype": "purple",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 770
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 50,
+            "y": 0,
+            "z": 241,
+            "modeltype": "Ship",
+            "texturetype": "Highlight",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 5,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 46,
+            "y": 0,
+            "z": 242,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 45,
+            "y": 0,
+            "z": 290,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 45,
+            "y": 0,
+            "z": 280,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 45,
+            "y": 0,
+            "z": 300,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 46,
+            "y": 0,
+            "z": 173,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 49,
+            "y": 0,
+            "z": 148,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 53,
+            "y": 0,
+            "z": 94,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 22,
+            "y": 0,
+            "z": 168,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 39,
+            "y": 0,
+            "z": 328,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 337,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 50,
+                "y": 250,
+                "z": 50
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 2200,
+            "triggerinfo": [
+                {
+                    "angle": 15,
+                    "time": 1
+                },
+                {
+                    "angle": 90,
+                    "time": 1
+                }
+            ],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 342,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 50,
+                "y": 250,
+                "z": 50
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 2200,
+            "triggerinfo": [
+                {
+                    "angle": 15,
+                    "time": 1
+                },
+                {
+                    "angle": 90,
+                    "time": 1
+                }
+            ],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 347,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 50,
+                "y": 250,
+                "z": 50
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 2200,
+            "triggerinfo": [
+                {
+                    "angle": 15,
+                    "time": 1
+                },
+                {
+                    "angle": 90,
+                    "time": 1
+                }
+            ],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 352,
+            "modeltype": "Box",
+            "texturetype": "blue",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 50,
+                "y": 250,
+                "z": 50
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 2200,
+            "triggerinfo": [
+                {
+                    "angle": 15,
+                    "time": 1
+                },
+                {
+                    "angle": 90,
+                    "time": 1
+                }
+            ],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "z": 335,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 35,
+            "y": 0,
+            "z": 342,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 33,
+            "y": 0,
+            "z": 349,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 31,
+            "y": 0,
+            "z": 356,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 31,
+            "y": 0,
+            "z": 399,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 51,
+            "y": 0,
+            "z": 414,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 27,
+            "y": 0,
+            "z": 399,
+            "modeltype": "Ship",
+            "texturetype": "Highlight",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 5,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 45,
+            "y": 0,
+            "z": 370,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 49,
+            "y": 0,
+            "z": 444,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 28,
+            "y": 0,
+            "z": 473,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 19,
+            "y": 0,
+            "z": 505,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "z": 526,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 35,
+            "y": 0,
+            "z": 399,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 44,
+            "y": 0,
+            "z": 469,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "z": 521,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 24,
+            "y": 0,
+            "z": 399,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 31,
+            "y": 0,
+            "z": 384,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 50,
+            "y": 0,
+            "z": 497,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 22,
+            "y": 0,
+            "z": 446,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 43,
+            "y": 0,
+            "z": 625,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 19,
+            "y": 0,
+            "z": 625,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 55,
+            "y": 0,
+            "z": 625,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 37,
+            "y": 9,
+            "z": 625,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 390,
+                "y": 30,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 31,
+            "y": 0,
+            "z": 625,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 19,
+            "y": 0,
+            "z": 632,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 33,
+            "y": 0,
+            "z": 632,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 41,
+            "y": 0,
+            "z": 632,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 55,
+            "y": 0,
+            "z": 632,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 37,
+            "y": 9,
+            "z": 632,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 390,
+                "y": 30,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "z": 631,
+            "modeltype": "Ship",
+            "texturetype": "Highlight",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 5,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 25,
+            "y": 0,
+            "z": 624,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 25,
+            "y": 0,
+            "z": 631,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 50,
+            "y": 0,
+            "z": 624,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 50,
+            "y": 0,
+            "z": 631,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "z": 637,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 24,
+            "y": 0,
+            "z": 661,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 38,
+            "y": 0,
+            "z": 669,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 51,
+            "y": 0,
+            "z": 661,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 34,
+            "y": 0,
+            "z": 669,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 51,
+            "y": 0,
+            "z": 685,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 45,
+            "y": 0,
+            "z": 696,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 24,
+            "y": 0,
+            "z": 685,
+            "modeltype": "Box",
+            "texturetype": "white",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 30,
+                "y": 90,
+                "z": 30
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0,
+            "collecttype": 0,
+            "collectscore": 1000
+        },
+        {
+            "x": 33,
+            "y": 0,
+            "z": 696,
+            "modeltype": "Ship",
+            "texturetype": "green",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 0,
+            "collecttype": 1,
+            "collectscore": 1000
+        },
+        {
+            "x": 73,
+            "y": 0,
+            "z": 375,
+            "modeltype": "Ship",
+            "texturetype": "Highlight",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "time": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 360,
+                    "time": 2
+                }
+            ],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": true,
+            "collectbonustime": 5,
+            "collecttype": 1,
+            "collectscore": 1000
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+	"Textures": [
+	{
+	"name": "Face1",
+	"path": "../Resource/Image/Face.png"
+	},
+	{
+	"name": "Face2",
+	"path": "../Resource/Image/Face1.png"
+	},
+	{
+	"name": "Axis",
+	"path": "../Resource/Image/axis.jpg"
+	},
+	{
+	"name": "Floor",
+	"path": "../Resource/Image/flooor.jpg"
+	},
+	{
+	"name": "Highlight",
+	"path": "../Resource/Image/highlight.png"
+	},
+	{
+	"name": "Panel",
+	"path": "../Resource/Image/panel.png"
+	},
+	{
+	"name": "DirtFloor",
+	"path": "../Resource/Image/dirtfloor.png"
+	},
+	]
+}

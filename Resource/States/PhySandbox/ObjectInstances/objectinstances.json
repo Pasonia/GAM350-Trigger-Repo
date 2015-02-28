@@ -1,0 +1,102 @@
+{
+	"ObjectInstances": [
+	{
+	"model": "Sphere",
+	"texture": "Face2",
+	"position": {"x": 100.0, "y": 0.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 5.0, "y": 5.0, "z": 5.0},
+	"render": {"wireframe": false, "aabb": false, "highlight": false, "bs": true},
+	"components":[
+	{
+		"type": "physics",
+		"mass": 20.0,
+		"restitution": 0.5,
+		"dynamic": true,
+		"falling": true,
+		"boundingtype": 0
+	}
+	]
+	},
+	{
+	"model": "Line",
+	"texture": "Face1",
+	"position": {"x": 0.0, "y": 0.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 1.0, "y": 1.0, "z": 1.0},
+	"render": {"wireframe": true, "aabb": false, "highlight": false, "bs": false}
+	},
+	{
+	"model": "Build_One",
+	"texture": "Face1",
+	"position": {"x": 300.0, "y": 20.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 5.0, "y": 5.0, "z": 5.0},
+	"render": {"wireframe": false, "aabb": true, "highlight": false, "bs": false},
+	"components":[
+	{
+		"type": "physics",
+		"mass": 20.0,
+		"restitution": 0.3,
+		"dynamic": false,
+		"falling": false,
+		"boundingtype": 1
+	}
+	]
+	},
+	{
+	"model": "Build_Two",
+	"texture": "Face1",
+	"position": {"x": 0.0, "y": 10.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 1.0, "y": 1.0, "z": 1.0},
+	"render": {"wireframe": false, "aabb": true, "highlight": false, "bs": false},
+	"components":[
+	{
+		"type": "physics",
+		"mass": 20.0,
+		"restitution": 0.3,
+		"dynamic": false,
+		"falling": false,
+		"boundingtype": 1
+	}
+	]
+	},
+	{
+	"model": "Build_Three",
+	"texture": "Face1",
+	"position": {"x": -250.0, "y": 50.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 10.0, "y": 10.0, "z": 10.0},
+	"render": {"wireframe": false, "aabb": true, "highlight": false, "bs": false},
+	"components":[
+	{
+		"type": "physics",
+		"mass": 20.0,
+		"restitution": 0.3,
+		"dynamic": false,
+		"falling": false,
+		"boundingtype": 1
+	}
+	]
+	},
+	{
+	"model": "Sphere",
+	"texture": "Face1",
+	"position": {"x": -50.0, "y": 0.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 5.0, "y": 5.0, "z": 5.0},
+	"render": {"wireframe": false, "aabb": false, "highlight": false, "bs": true},
+	"components":[
+	{
+		"type": "physics",
+		"mass": 20.0,
+		"restitution": 0.5,
+		"dynamic": true,
+		"falling": true,
+		"boundingtype": 0
+	}
+	]
+	}
+    ]
+}

@@ -1,0 +1,132 @@
+{
+	"UIElements": [
+  {
+	"name": "hp",
+	"path": "../Resource/Image/hpicon.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "splash",
+	"path": "../Resource/Image/black.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "PauseBG" ,
+	"path": "../Resource/Image/blue.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "Instructions",
+	"path": "../Resource/Image/panelhowto.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "ResumeGame",
+	"path": "../Resource/Image/buttons/button_resume.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "ResumeGameTrigger",
+	"path": "../Resource/Image/buttons/button_resume_hl.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "Restart",
+	"path": "../Resource/Image/buttons/button_restart.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "RestartTrigger",
+	"path": "../Resource/Image/buttons/button_restart_hl.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "ExitGame",
+	"path": "../Resource/Image/buttons/button_exit.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "ExitGameTrigger",
+	"path": "../Resource/Image/buttons/button_exit_hl.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "HowTo",
+	"path": "../Resource/Image/buttons/button_how.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "HowToTrigger",
+	"path": "../Resource/Image/buttons/button_how_hl.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "FullScreen",
+	"path": "../Resource/Image/buttons/button_fullscreen.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "FullScreenTrigger",
+	"path": "../Resource/Image/buttons/button_fullscreen_hl.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "QuitGame",
+	"path": "../Resource/Image/buttons/button_quit.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	},
+  {
+	"name": "QuitGameTrigger",
+	"path": "../Resource/Image/buttons/button_quit_hl.png", 
+  "sizeX" : 1,
+  "sizeY" : 1,
+  "indexX" : 0,
+  "indexY" : 0
+	}
+  ]
+}

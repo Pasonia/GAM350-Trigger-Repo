@@ -1,0 +1,40 @@
+{
+	"ObjectInstances": [
+	{
+	"model": "Ship",
+	"texture": "Face1",
+	"position": {"x": 0.0, "y": 0.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 0.0003, "y": 0.0003, "z": 0.0003},
+	"render": {"wireframe": false, "aabb": false, "highlight": false, "bs": true},
+	"components":[
+	{
+		"type": "physics",
+		"mass": 20.0,
+		"restitution": 0.5,
+		"dynamic": false,
+		"falling": false,
+		"boundingtype": 0
+	}
+	]
+	},
+	{
+	"model": "Sphere",
+	"texture": "Face1",
+	"position": {"x": 0.0, "y": 0.0, "z": 0.0},
+	"rotation": {"yaw": 0.0, "pitch": 0.0, "roll": 0.0},
+	"scale": {"x": 1.0, "y": 1.0, "z": 1.0},
+	"render": {"wireframe": false, "aabb": false, "highlight": false, "bs": true},
+	"components":[
+	{
+		"type": "physics",
+		"mass": 20.0,
+		"restitution": 0.5,
+		"dynamic": false,
+		"falling": false,
+		"boundingtype": 0
+	}
+	]
+	}
+	]
+}

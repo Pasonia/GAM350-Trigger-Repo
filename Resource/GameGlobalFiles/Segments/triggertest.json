@@ -1,0 +1,33 @@
+{
+    "length": 25,
+    "LevelObjects": [
+        {
+            "x": 35,
+            "y": 0,
+            "z": 15,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "AABB",
+            "scale": {
+                "x": 10,
+                "y": 100,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 10,
+            "triggerinfo": [
+                {
+                    "angle": 1.57,
+                    "time": 1
+                }
+            ]
+        }
+    ]
+}

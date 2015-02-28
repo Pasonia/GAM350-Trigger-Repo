@@ -1,0 +1,55 @@
+{
+    "length": 499,
+    "LevelObjects": [
+        {
+            "x": 29,
+            "y": 0,
+            "z": 30,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 50,
+                "y": 30,
+                "z": 50
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0
+        },
+        {
+            "x": 30,
+            "y": 0,
+            "z": 20,
+            "modeltype": "Box",
+            "texturetype": "Face1",
+            "boundtype": "Sphere",
+            "scale": {
+                "x": 10,
+                "y": 10,
+                "z": 10
+            },
+            "gVector": {
+                "x": 0,
+                "y": 0
+            },
+            "gOffset": 0,
+            "lSpeed": 0,
+            "movementtype": "static",
+            "rotations": [],
+            "triggerdist": 0,
+            "triggerinfo": [],
+            "collectable": false,
+            "collectbonustime": 0
+        }
+    ]
+}

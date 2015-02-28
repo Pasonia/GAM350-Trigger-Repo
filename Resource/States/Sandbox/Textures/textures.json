@@ -1,0 +1,16 @@
+{
+	"Textures": [
+	{
+	"name": "Face1",
+	"path": "../Resource/Image/Face.png"
+	},
+	{
+	"name": "Face2",
+	"path": "../Resource/Image/Face.png"
+	},
+	{
+	"name": "Trunk",
+	"path": "../Resource/Image/trunk.jpg"
+	}
+	]
+}

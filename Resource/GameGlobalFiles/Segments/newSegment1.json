@@ -1,0 +1,21 @@
+{
+	"objectMap": "../Resource/Image/map6.bmp",
+	"difficulty": 1,
+	"LevelObjects":
+	[
+	{
+		"x": 127,
+		"y": 20,
+		"scaleX": 1,
+		"scaleY": 30,
+		"scaleZ": 1,
+		"rotationX": 0,
+		"rotationY": 0,
+		"rotationZ": 0,
+		"modelname": "Tree",
+		"texturename": "Trunk",
+		"objecttype": "Tree",
+		"boundtype": "OBB"
+	}
+	]
+}

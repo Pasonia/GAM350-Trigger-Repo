@@ -1,0 +1,36 @@
+{
+	"Models": [
+	{
+		"name": "Ship",
+		"path":"../Resource/Model/Ship.dae"
+	},
+	{
+		"name": "Box",
+		"path":  "../Resource/Model/Box.dae"
+	},
+	{
+		"name": "Axis",
+		"path":  "../Resource/Model/axis.dae"
+	},
+	{
+		"name": "Plane",
+		"path":  "../Resource/Model/cellHighlight.dae"
+	},
+	{
+		"name": "Camera",
+		"path":  "../Resource/Model/camera.dae"
+	},
+	{
+		"name": "Highlight",
+		"path":  "../Resource/Model/cellHighlight.dae"
+	},
+	{
+		"name": "Pillar",
+		"path":  "../Resource/Model/Box.dae"
+	},
+	{
+		"name": "Sphere",
+		"path":  "../Resource/Model/Sphere.dae"
+	}
+	]
+}
